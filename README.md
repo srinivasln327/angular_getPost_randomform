@@ -7,7 +7,6 @@ Hi DevTeam Ventursity
 I like learning new things, 
 beacause of this challenge i opened an account in github, created new repository.
 
-I started working on this challenge on 1.4.2016(saturday)
 The Challenge is not completely done, i will finish it, and mail you again.
 
  I succeeded getting the form elements from random-form URL link.
