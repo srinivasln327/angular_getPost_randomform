@@ -3,6 +3,7 @@ angular.module('app', ['ui.bootstrap'])
 .controller('mainController', ['$scope','$document','$element', '$http', '$compile', function($scope, $document, $element, $http, $compile) 
 		{
 		$scope.items = [];
+			
 			$scope.formData= {};
         $scope.getFormItems = function() {
 			var myNode = document.getElementById("form");
