@@ -162,9 +162,9 @@ angular.module('app', ['ui.bootstrap'])
 				if($scope.items[i].editable === false){ 
 				  element1.setAttribute('disabled', 'true' );
 				  }
-				  if($scope.items[i].required === true){ 
-				  element1.setAttribute('required', '' );
-				  }
+				 // if($scope.items[i].required === true){ 
+				 // element1.setAttribute('required', '' );
+				 // }
 				
 				 divElement1.appendChild(element1);
 					
