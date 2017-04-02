@@ -4,7 +4,6 @@ angular.module('app', ['ui.bootstrap'])
 		{
 		$scope.items = [];
 			$scope.formData= {};
-			$scope.user = {name: 'guest', last: 'visitor'};
         $scope.getFormItems = function() {
 			var myNode = document.getElementById("form");
 			myNode.innerHTML = '';
@@ -248,9 +247,13 @@ angular.module('app', ['ui.bootstrap'])
 		
 		 $scope.submitForm = function() {
 		//alert($scope.formData);
-		
-		//$scope.formData = {};
+	
+		$scope.data = {};
+		$scope.data.formArray = [];
+		$scope.data.formArray.push($scope.formData)
             //$http.post('https:randomform.herokuapp.com/submit', data);
+				$scope.formData = {};
+
 			};
 
 		}]
