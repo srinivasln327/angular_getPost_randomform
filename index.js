@@ -252,7 +252,7 @@ angular.module('app', ['ui.bootstrap'])
 		$scope.data.formArray = [];
 		$scope.data.formArray.push($scope.formData)
             //$http.post('https:randomform.herokuapp.com/submit', data);
-				$scope.formData = {};
+		//$scope.formData = {};
 
 			};
 
